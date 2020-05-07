@@ -1,4 +1,4 @@
-# mobile-automation
+# mobileautomation
 Automation Test Framework for Mobile Apps usin Appium-java (iOS and Android) 
 
 # Framework Description:
@@ -56,8 +56,8 @@ update device udid(deviceUDID value), we can get the device udid by a command "a
 
 To run TestNG suite file:
  
-Right click on testng.xml file and Run as TestNG Suite.
+Right click on # testng.xml file and Run as TestNG Suite.
 
 We can run individual test classes as TestNG classes.
 
-Note: Testcase is available in MobileTest.java in test(src/test/java/com/amazon/test) package.
+Note: Testcase is available in # MobileTest.java in test(src/test/java/com/amazon/test) package.
