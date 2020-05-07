@@ -56,7 +56,7 @@ public class MobileTest extends DriverManager{
 					+ "Amazon_shopping.apk", udid);
 			getDriver().rotate(ScreenOrientation.LANDSCAPE);
 		} catch (Exception ex) {
-			logger.info("Exception is : " + ex);
+			logger.info("Exception is : Please check your Device UDID, apk path");
 		}
 	}
 
@@ -160,6 +160,11 @@ public class MobileTest extends DriverManager{
 		}
 	}
 
+	/**
+	 * 
+	 * Tear Down Method
+	 * Kill the extent session and driver instance
+	 */
 	@AfterClass
 	public void tearDown() {
 		try {
