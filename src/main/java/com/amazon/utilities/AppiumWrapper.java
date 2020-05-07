@@ -143,7 +143,6 @@ public class AppiumWrapper extends MobileBase{
 	    scroll(pressX, bottomY, pressX, topY);
 	}
 	
-	
 	/*
 	 * Don't forget that it's "natural scroll" where 
 	 * fromY is the point where you press and toY where you release it

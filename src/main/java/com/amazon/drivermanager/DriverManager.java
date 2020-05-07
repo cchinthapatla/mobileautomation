@@ -43,6 +43,11 @@ public class DriverManager {
 		}
 	}
 	
+	/**
+	 * Get Driver instance
+	 * 
+	 * @return
+	 */
 	public static AppiumDriver<MobileElement> getDriver() {
 		return appiumDriver;
 	}

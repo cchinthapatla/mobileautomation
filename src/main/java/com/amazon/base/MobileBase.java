@@ -8,6 +8,7 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 public class MobileBase {
 	public AppiumDriver<MobileElement> appiumDriver;
+	
 	public MobileBase(){
 		appiumDriver = DriverManager.getDriver();
 		PageFactory.initElements(new AppiumFieldDecorator(appiumDriver), this);

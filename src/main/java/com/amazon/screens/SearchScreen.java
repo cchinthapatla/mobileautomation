@@ -121,5 +121,4 @@ public class SearchScreen extends MobileBase {
 	public String verifyingIncartAddedItemPrice() {
 		return appiumWrapper.getTextValue(verifyingIncartAddedItemPrice, 60);
 	}
-
 }
